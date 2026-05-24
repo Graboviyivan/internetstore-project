@@ -28,6 +28,7 @@ body {
   font-style: normal;
 }
 
+
 header {
   display: flex;
   justify-content: space-between;
@@ -212,4 +213,9 @@ footer {
   margin-right: 1000px;
   display: flex;
   justify-content: space-between;
+}
+
+
+@media screen and (min-width: 1200px){
+  
 }
