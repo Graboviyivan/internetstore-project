@@ -1,0 +1,215 @@
+.nav1 {
+  color: #324a2a;
+  text-decoration: none;
+  border: 1px solid #324a2a;
+  border-radius: 40px;
+  font-size: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 100px;
+  margin-right: 15px;
+  display: flex;
+}
+.nav {
+  margin-top: 70px;
+  margin-left: 40px;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  white-space: nowrap;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner1 {
+  width: 100%;
+  height: 700px;
+  margin-top: 30px;
+  display: flex;
+  object-fit: cover;
+  justify-content: center;
+  border-radius: 70px;
+  position: relative;
+}
+
+.logo {
+  width: 300px;
+  margin-right: 800px;
+  margin-bottom: 50px;
+}
+
+.toys {
+  width: 400px;
+  border-radius: 50%;
+  margin-top: 80px;
+  margin-left: 80px;
+}
+
+.button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400px;
+  background-color: #c99585;
+  border: 1px solid black;
+  font-size: 30px;
+  color: white;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 185px;
+  margin-top: 20px;
+}
+
+.toys-container {
+  display: block;
+}
+
+footer {
+  background-color: #899682;
+  padding: 100px;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.footer-container {
+  height: 114px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-work {
+  color: white;
+  font-size: 30px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+  top: -45px;
+}
+.footer-span {
+  color: #e8dece;
+  font-size: 40px;
+  text-align: left;
+}
+
+.logo2 {
+  width: 350px;
+  height: 200px;
+  margin-right: 1250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400px;
+  background-color: #c99585;
+  border: 1px solid black;
+  font-size: 60px;
+  color: white;
+  border-radius: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 100px;
+  margin: 0 37%;
+  text-decoration: none;
+  position: relative;
+  top: -220px;
+  right: -100px;
+  white-space: nowrap;
+}
+
+.banner {
+  display: block;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 60px;
+}
+
+.logo3 {
+  width: 200px;
+  height: 200px;
+  margin-right: 200px;
+  margin-top: -30px;
+}
+
+.footer-right {
+  color: #e8dece;
+  font-size: 40px;
+  margin-right: 50px;
+  text-align: center;
+  position: relative;
+  top: -10;
+}
+
+.instagram {
+  width: 200px;
+  height: 200px;
+  padding-right: 10px;
+  margin-top: -30px;
+}
+
+.button3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400px;
+  background-color: #c99585;
+  border: 1px solid black;
+  font-size: 30px;
+  color: white;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 160px;
+  margin-top: 20px;
+}
+
+.button4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400px;
+  background-color: #c99585;
+  border: 1px solid black;
+  font-size: 30px;
+  color: white;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+
+.call {
+  width: 50px;
+  height: 50px;
+  display: inline;
+  text-align: center;
+}
+
+.logo-call {
+  width: 200px;
+  height: 100px;
+  margin-right: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
