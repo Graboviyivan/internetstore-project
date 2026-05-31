@@ -51,14 +51,14 @@ header {
   margin-bottom: 50px;
 }
 
-.toys {
+.store__item__img {
   width: 400px;
   border-radius: 50%;
   margin-top: 80px;
   margin-left: 80px;
 }
 
-.button {
+.store__item__btn {
   font-family: "Montserrat", sans-serif;
   font-weight: 400px;
   background-color: #c99585;
