@@ -90,15 +90,33 @@ width: 210px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  padding: 40px 0;
+}
+
+.hero .container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__title{
+  color: rgb(255, 241, 224);
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 768px){
+  .hero__title{
+  font-size: 60px;
+}
 }
 
 .hero__btn{
  background-color: #c99585; 
  border: 1px solid black;
- padding: 10px;
- position: absolute;
- top:400px;
- left:800px;
  border-radius: 20px;
 }
 
@@ -129,7 +147,8 @@ font-size: 40px;
 /* CATALOG */
 
 .store{
-  margin-top: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .store__list{
@@ -190,17 +209,32 @@ gap: 30px;
 
 footer {
   background-color: #899682;
-  padding: 100px;
-  margin-top: 100px;
-  width: 100%;
+  padding: 15px 0px;
 }
 
-.footer-container {
-  height: 114px;
+.footer .container {
   display: flex;
+}
+
+.footer__list{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
   justify-content: space-between;
 }
-.footer__work {
+
+.footer__item{
+    color: #e8dece;
+  font-size: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* .footer__work {
   color: white;
   font-size: 30px;
   margin-left: 50px;
@@ -210,14 +244,16 @@ footer {
   list-style: none;
 }
 .footer__span {
-  color: #e8dece;
-  font-size: 40px;
-  text-align: left;
+
+} */
+
+.logo3 {
+  width: 100px;
+  height: 100px;
 }
 
 
-
-.banner {
+/* .banner {
   display: block;
 }
 
@@ -228,13 +264,6 @@ footer {
   margin-right: 60px;
 }
 
-.logo3 {
-  width: 200px;
-  height: 200px;
-  margin-right: 200px;
-  margin-top: -30px;
-}
-
 .footer__right {
   color: #e8dece;
   font-size: 40px;
@@ -243,15 +272,14 @@ footer {
   position: relative;
   top: -10;
   list-style: none;
-}
+} */
 
 .instagram {
-  width: 200px;
-  height: 200px;
-  padding-right: 10px;
-  margin-top: -30px;
+  width: 100px;
+  height: 100px;
 }
-.call {
+
+/* .call {
   width: 50px;
   height: 50px;
   display: inline;
@@ -264,9 +292,17 @@ footer {
   margin-right: 1000px;
   display: flex;
   justify-content: space-between;
+} */
+
+
+@media screen and (min-width: 768px){
+  .footer__list{
+  flex-direction: row;
 }
 
+.instagram {
+  width: 70px;
+  height: 70px;
+}
 
-@media screen and (min-width: 1200px){
-  
 }
