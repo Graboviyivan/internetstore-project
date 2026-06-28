@@ -30,7 +30,7 @@
         </div>
         <nav class="nav">
           <a href="" class="nav__item">Про нас</a>
-          <a href="" class="nav__item">Оплата і доставка</a>
+          <button id="pay-btn" href="" class="nav__item">Оплата і доставка</button>
           <a href="" class="nav__item">Контакти</a>
         </nav>
       </div>
@@ -136,5 +136,27 @@
         </ul>
       </div>
     </footer>
+
+    <div class="backdrop"></div>
+    <div class="pay">
+      <form class="pay__form" action="">
+        <label class="pay__label" for="">
+          Ваше ім'я
+          <input class="pay__input" type="text">
+        </label>
+        <label class="pay__label" for="">
+          Ваше прізвище
+          <input class="pay__input" type="text">
+        </label>
+        <label class="pay__label" for="">
+          Ваш номер телефону
+          <input class="pay__input" type="text">
+        </label>
+
+        <button class="store__item__link__btn pay__form__btn">Відправити</button>
+      </form>
+    </div>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>
