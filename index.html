@@ -20,19 +20,19 @@
     <header>
       <div class="container">
         <div class="logo2">
-            <img src="img/logo.JPG" />
-          </div>
+          <img src="img/logo.JPG" />
+        </div>
         <nav class="nav">
           <a href="" class="nav__item">Про нас</a>
-          <a href="" class="nav__item">Оплата і доставка</a>
+          <button id="pay-btn" href="" class="nav__item">Оплата і доставка</button>
           <a href="" class="nav__item">Контакти</a>
         </nav>
-        
       </div>
     </header>
     <main>
       <section class="hero">
         <div class="container">
+          <h1 class="hero__title">Ніжних обіймів <br />з перших днів</h1>
           <button class="hero__btn">
             <a href="" class="hero__btn__link">Дізнатися більше</a>
           </button>
@@ -57,10 +57,7 @@
 
             <li class="store__item">
               <img class="store__item__img" src="img/forbaby.png" />
-              <a
-                class="store__item__link"
-                href=""
-              >
+              <a class="store__item__link" href="">
                 <button class="store__item__link__btn">Для малюків</button>
               </a>
             </li>
@@ -107,25 +104,53 @@
       </section>
     </main>
     <footer>
-      <section class="footer-container">
-        <li class="footer__work">
-          <p>Графік роботи:</p>
-          <p>Пн-Нд 09.00-19.00</p>
-          <p><span class="footer__span">Телефон:096-12-19-444</span></p>
-        </li>
-        <a
-          href="https://www.instagram.com/splusha.com.ua/?igsh=NTRocW50Mmo0c21o&utm_source=qr#"
-          target="_blank"
-        >
-          <img class="logo3" src="img/logo2.png" />
-        </a>
-        <li class="footer__right">
-          <nav>Бренди</nav>
-          <nav>Акції</nav>
-          <nav>Повернення та обмін</nav>
-        </li>
-        <img class="instagram" src="img/instagram.png" />
-      </section>
+      <div class="container">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <p>Графік роботи:</p>
+            <p>Пн-Нд 09.00-19.00</p>
+            <p><span class="footer__span">Телефон:096-12-19-444</span></p>
+          </li>
+          <li class="footer__item">
+            <a
+              href="https://www.instagram.com/splusha.com.ua/?igsh=NTRocW50Mmo0c21o&utm_source=qr#"
+              target="_blank"
+            >
+              <img class="logo3" src="img/logo2.png" />
+            </a>
+          </li>
+          <li class="footer__item">
+            <nav>Бренди</nav>
+            <nav>Акції</nav>
+            <nav>Повернення та обмін</nav>
+          </li>
+          <li class="footer__item">
+            <img class="instagram" src="img/instagram.png" />
+          </li>
+        </ul>
+      </div>
     </footer>
+
+    <div class="backdrop"></div>
+    <div class="pay">
+      <form class="pay__form" action="">
+        <label class="pay__label" for="">
+          Ваше ім'я
+          <input class="pay__input" type="text">
+        </label>
+        <label class="pay__label" for="">
+          Ваше прізвище
+          <input class="pay__input" type="text">
+        </label>
+        <label class="pay__label" for="">
+          Ваш номер телефону
+          <input class="pay__input" type="text">
+        </label>
+
+        <button class="store__item__link__btn pay__form__btn">Відправити</button>
+      </form>
+    </div>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>
